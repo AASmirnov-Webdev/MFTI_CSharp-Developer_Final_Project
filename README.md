@@ -153,7 +153,7 @@ f. Просмотреть статистику зоопарка
 - Получение животных по ID: `AnimalsController` (GET /api/Animals/{id})
 - Получение вольеров по ID: `EnclosuresController` (GET /api/Enclosures/{id})
 
-✅ Разработаны 12 Unit-тестов (Tests)
+✅ Разработаны и успешно пройдены 12 Unit-тестов (Tests) примерно 70% покрытия кода
 
 Описание тестов:
 1. `Animal_Feed_Should_Raise_AnimalFedEvent` - проверяет генерацию события кормления
