@@ -24,16 +24,28 @@
 - Clean Architecture
 - Domain-Driven Design
 
-## 📦 Установка и запуск
+## 📦 Установка и запуск через Visual Studio
 
 1. Клонируйте репозиторий
-2. Восстановите зависимости: `dotnet restore`
-3. Запустите приложение: `dotnet run --project ZooManagement.API`
-4. Откройте Swagger: `https://localhost:port/swagger`
+2. Откройте `ZooManagement.sln`
+3. Установите `API` как Startup Project
+4. Нажмите F5 или Ctrl + F5
+5. Перейдите: `https://localhost:7201/swagger`
 
-## 🧪 Тестирование
 
-Используйте Swagger UI для тестирования API endpoints.
+## 🧪 xUnit-Тестирование через Visual Studio
+
+1. Откройте Test Explorer (Test → Test Explorer)
+2. Нажмите "Run All Tests"
+
+## 🌐 Тестирование приложения через API Endpoints
+
+Используйте Swagger UI для тестирования API endpoints после запуска:
+ 
+- Swagger UI: `https://localhost:7201/swagger`
+- Animals API: `https://localhost:7201/api/Animals`
+- Enclosures API: `https://localhost:7201/api/Enclosures`
+- Statistics API: `https://localhost:7201/api/Statistics`
 
 # Описание задания
 
