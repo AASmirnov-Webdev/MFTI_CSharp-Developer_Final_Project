@@ -270,4 +270,4 @@ Event-Driven Architecture
 - Возможность добавления обработчиков событий
 
 ---
-## Проект успешно реализует все требуемые функции с соблюдением принципов Clean Architecture и Domain-Driven Design.
+## Вывод: Проект успешно реализует все требуемые функции с соблюдением принципов Clean Architecture и Domain-Driven Design.
